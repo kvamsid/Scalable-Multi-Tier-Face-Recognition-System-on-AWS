@@ -5,7 +5,7 @@
 ## Overview
 This project is a cloud-native application built on AWS to deliver efficient and scalable face recognition. Designed to handle high volumes of concurrent requests, it employs a multi-tier architecture that dynamically adjusts resource allocation. The system uses EC2 instances for computation, S3 for persistent storage, and SQS for inter-service communication, while leveraging a PyTorch-based deep learning model for accurate face detection and identification.
 
-![System Architecture](assets/scalable.png)
+![System Architecture](architecture/scalable.png)
 
 ## Key Advantages
 - **Layered Architecture**: The application is divided into three independent tiers—web, application, and data—to promote modularity and facilitate seamless scalability.
